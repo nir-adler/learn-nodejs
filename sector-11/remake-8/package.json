@@ -1,7 +1,6 @@
 {
-  "name": "node-app",
+  "name": "remake-8",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev":"nodemon",
@@ -10,7 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }

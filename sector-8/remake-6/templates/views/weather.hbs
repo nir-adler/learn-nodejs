@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='/css/style.css'>
+    <link rel='icon' href='/img/weather.png'>
+    <script src='/js/app.js' async></script>
+</head>
+
+<body>
+    <div style='align-items:start;flex-direction:column'>
+        {{>header}}
+        <p></p>
+        <form>
+            <input type='text' placeholder='Enter address'>
+            <input type='submit' value='send'>
+        </form>
+        <p id='message-1'></p>
+        <p id='message-2'></p>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+* {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    /* background-color: blue; */
+    min-width: 500px;
+}
+
+#links a {
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+}
+
+header{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer {
+    
+    justify-content: flex-start
+}

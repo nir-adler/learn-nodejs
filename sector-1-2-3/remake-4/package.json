@@ -1,7 +1,8 @@
 {
-  "name": "remake-7",
+  "name": "remake-4",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^6.0.3",
-    "validator": "^13.6.0"
-  },
-  "description": ""
+    "chalk": "^4.1.2",
+    "yargs": "^17.2.1"
+  }
 }

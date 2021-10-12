@@ -7,6 +7,8 @@ const { Task } = require('./models/task')
 const { router: taskRouter } = require('../src/routers/task')
 const { router: userRouter } = require('../src/routers/user')
 const bcrypt = require('bcryptjs')
+const multer  = require('multer')
+
 
 const app = express()
 
